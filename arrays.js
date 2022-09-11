@@ -1,0 +1,16 @@
+var arr = [10, 29, 64, 3, 34];
+var a = arr[0], b = arr[1], c = arr[2], d = arr[3], e = arr[4], f = arr[5];
+console.log(a);
+console.log(f);
+var a = arr[0], c = arr[1], d = arr[2];
+console.log(c);
+var a = arr[0], d = arr[2];
+console.log(d);
+var num = [10, 29, 64, 3, 34];
+var a = num[0], b = num[1], c = num[2], d = num[3], e = num[4], f = num[5];
+var a = num[0], c = num[1], d = num[2];
+var a = num[0], d = num[2];
+console.log(d);
+console.log(a);
+console.log(f);
+console.log(c);

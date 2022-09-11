@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var trial_1 = require("./trial");
+console.log(trial_1.message);
+(0, trial_1.greet)();
+var product = new trial_1.Product('Pen', 10);
+product.getInfo();
+var mymodule = require("./trial");
+console.log(mymodule.message);
+mymodule.greet();
+var prod = new mymodule.Product('Marker', 20);
+prod.getInfo();
